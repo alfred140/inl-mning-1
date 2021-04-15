@@ -1,0 +1,78 @@
+@media only screen and (max-width: 900px ) {
+
+    .flex_container{
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .flex_container > ul > li{
+        font-size: 20px;
+        padding: 25px;
+        float: none;  
+    }
+    #title{
+        font-size: medium; 
+        margin: 0;
+        width: 100px;
+        padding: 5px;
+        margin-right: 25px;
+    }
+    .intro{
+        height: 15rem;
+    }
+
+    nav{
+        padding-top: 5px;
+        background-color: rgb(34, 34, 34);
+    }
+    nav li{
+        font-size: smaller;
+        padding: 0;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    nav li:hover{
+        border: none;
+    }
+    #popular li{
+        font-size: 15px;
+    }
+    #display div{
+        width: 200px;
+    }
+    #content{
+        text-align: center;
+        font-size: medium;
+        width: fit-content;
+        background-color:rgba(0,0,0, 0.5);
+    }
+    #content h3{
+        font-size: small;
+    }
+    footer{
+        height: 60px;
+    }
+    footer img{
+        max-width: 30px;
+    }
+    .popularRow{
+        flex-direction:column;
+        
+    }
+    .column img{
+        width: 200px;
+        height: 100px;
+    }
+    .column button{
+        margin-bottom: 20px;
+    }
+    .column p{
+        margin: auto 25px;
+        margin-right: auto;
+        margin-left:auto;
+    }
+}
+
+  
+    
